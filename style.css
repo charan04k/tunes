@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+a{
+    color: white;
+    text-decoration: underline;
+    text-decoration: none;
+    
+}
+.tunes{
+    background-color: #333333;
+    /* background-color: pink; */
+    height: 30px;
+    width: 6%;
+    color: white;
+    text-align: center;
+    /* padding-top: 3px; */
+    /* border: 3px solid red; */
+    
+    
+}
+.tunes:hover{
+    /* transition: height; */
+    background-color: grey;
+    
+
+    /* height: 35px; */
+    
+    
+}
+/* animation */
+/* @keyframes hk {
+    from{
+        top: 0px;
+        left: 200px;
+
+    }
+    to{
+        top: 700px;
+    }   
+} */
+/* animatin */
+@keyframes hh {
+    0%{
+        color: pink;
+    }
+    25%{
+        color: rebeccapurple;
+    }
+    50%{
+        color: aqua;
+    }
+    75%{
+        color: burlywood;
+    }
+    100%{
+        color: cadetblue;
+    }
+    
+}
+.sec{
+    /* top:30px; */
+    position: sticky;
+    top: 0px;
+    background-color: #333333;
+    /* border: 2px solid red; */
+    height: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.art{
+    /* border: 3px solid rebeccapurple; */
+    height: 30px;
+    width: 98%;
+    display:flex;
+    /* justify-content:flex-start; */
+}
+
+/* section 1 starting  */
+
+.section1{
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg");
+    /* position: relative; */
+    background-size: 1700px 900px, cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    object-fit: cover;
+
+    /* columns: white; */
+
+}
+.section1 p{
+    color:wheat;
+}
+.section1 .p1{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    /* margin-top: 100px; */
+    margin-top: 300px;
+    margin-left: 600px;
+    /* border: 1px solid red; */
+    position: absolute;
+    animation: hh;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.section1 .p1:hover{
+    color: red;
+    font-size: 70px;
+    font-style: oblique;
+    animation-name: hk;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+.section1 .p2{
+    color: white;
+    /* font-size: 50px; */
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 250px;
+    font-size:xx-large;
+    position: absolute;
+}
+
+.section1 .p3{
+    color: white;
+    /* font-size: 50px; */
+    font-family: sans-serif;
+    text-align: center;
+    position: absolute;
+    margin: 450px 20px 10px 20px;
+    font-size:large;
+}
+
+/* .music1{
+    background-color: #252529;
+    color: white;
+    height: 100vh;
+} */
+.music .p1{
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 45%;
+}
+
+.music{
+    background-color: #252529;
+    color: white;
+}
+.music>.p2{
+    /* padding-top: 100px; */
+    padding-left: 45%;
+}
+.p3{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.music>.btn1{
+    background-color: red;
+    height: 70px;
+    width: 200px;
+    border-radius: 10%;
+    
+}
+.btn1{
+    margin-left:43% ;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    
+}
+
+
+#overview{
+    height: 100vh;
+    background-color: aqua;
+}
+
+#video{
+    background-color: white;
+    height: 140vh;
+}
+#gift{
+    height: 75vh;
+    background-color: white;
+    /* display: flex;
+    flex-direction: column-reverse; */
+    /* text-align: center; */
+}
+.gigt-g{
+    text-align: center;
+    
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:  */
+    
+}
+.img1{
+    width: 700px;
+    height: 700px;
+    margin: 20px 30px 10px 300px;
+}
+
+.btn2{
+    width: fit-content;
+    height: 50px;
+    background-color: #113063;
+    color: white;
+    margin: 20px 650px;
+    width: fit-content;
+}
+
+.img2{
+    height: 700px;
+    width: 700px;
+    /* margin: 200px; */
+    margin-left: 400px;
+}
+.videoP1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.videoP2{
+    text-align: center;
+    margin: 50px 100px 20px 100px;
+    font-size: 20px;
+    
+}
+.inbet{
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg");
+    /* object-fit: cover;    */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.inbetp{
+    font-size: xx-large;
+    text-align: center;
+    position: absolute;
+    margin: 150px 200px 200px 300px;
+}
+.inbetp2{
+    text-align: center;
+    position: absolute;
+    margin: 200px 150px;
+    font-size: 20px;
+}
+.gift{
+    padding-top:200px ;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    
+}
+.hi>.gp1{
+    position: absolute;
+    margin: 80px 0px 0px 200px;
+    /* border: 1px solid black; */
+    font-size: 50px;
+    font-style: italic;
+    
+
+}
+.h1{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gp2{
+    position: absolute;
+    margin: 200px 40px 0px 200px;
+    font-size: 20px;
+    padding-right: 50px;
+}
+hr{
+    
+    height: 400px;
+    
+}
+.last{
+    height: 30vh;
+    background-color: #252529;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+.vlog{
+    /* height: 100px; */
+    width: 300px;
+    /* border: 1px solid rebeccapurple; */
+    color: white;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+footer>p{
+    color: aliceblue;
+    background-color: #252529;
+    text-align: center;
+}
+.vlog>h4{
+    text-align: center;
+    color:tomato;
+    text-decoration:underline;
+}
+
+
